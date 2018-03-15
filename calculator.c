@@ -22,8 +22,9 @@ int main(){
   return 0;
 }
 
+// return the addition value of two int values
 int add(int a, int b) {
-  return 0; // TODO : FIX IT
+  return a + b;
 }
 
 int sub(int a, int b) {
