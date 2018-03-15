@@ -32,6 +32,7 @@ int sub(int a, int b) {
   return a - b;
 }
 
+// return the multiplied value of two int values
 int mul(int a, int b) {
-  return 0; // TODO : FIX IT
+  return a * b;
 }
