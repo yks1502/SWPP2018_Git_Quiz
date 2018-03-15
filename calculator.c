@@ -24,7 +24,12 @@ int main(){
 
 // return the addition value of two int values
 int add(int a, int b) {
-  return a + b;
+  if (a > 0)
+    return add(a - 1, b) + 1;
+  if (a < 0)
+    return add(a + 1, b) - 1;
+  else
+    return b;
 }
 
 // return the subtracted value of two int values
